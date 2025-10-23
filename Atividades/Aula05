@@ -1,0 +1,48 @@
+# 💧 Fluxo de Usuário – Alerta de Enchentes  
+**Disciplina:** Experiência do Usuário – DSM – Prof.ª Lucineide  
+**Semestre:** 4º / 2025  
+
+---
+
+## 👤 Persona  
+**Nome:** Ana  
+**Idade:** 28 anos  
+**Contexto:** Moradora de área de risco  
+**Objetivo:** Receber um alerta confiável de enchente em tempo hábil  
+
+---
+
+## 🔄 Etapas do Fluxo  
+
+| Etapa | Ação do Usuário | Resposta do Sistema/App | Sentimento Esperado |
+|:------|:----------------|:------------------------|:--------------------|
+| **Início** | Ana abre o app ao ver nuvens escuras | Tela inicial carregada | Ansiosa, busca segurança |
+| **1** | Ativa a localização no app | App solicita permissão de GPS | Confiante |
+| **2** | Recebe notificação de alerta de enchente | Push notification clara e objetiva | Preocupada, mas informada |
+| **3** | Lê os detalhes do alerta | Mostra mapa da região e instruções do INPE | Tranquilidade (tem instruções confiáveis) |
+| **Fim** | Compartilha o alerta com vizinhos | Botão de compartilhamento rápido (WhatsApp, SMS) | Engajada e solidária |
+
+---
+
+## ⚙️ Decisões  
+
+| Decisão | Condição | Caminho A | Caminho B |
+|:--------|:----------|:-----------|:-----------|
+| **Permissão de GPS** | Usuário aceita ou recusa | Aceita → localização automática | Recusa → selecionar cidade manualmente |
+
+---
+
+## 💡 Oportunidades de Melhoria  
+
+| Etapa/Decisão | Ponto de Dor | Oportunidade de Melhoria |
+|:---------------|:-------------|:--------------------------|
+| **Etapa 2 – Notificação** | Mensagem muito longa | Usar ícones + texto curto |
+| **Etapa 3 – Detalhes do alerta** | Usuário duvida da confiabilidade | Mostrar logo e fonte oficial do INPE |
+| **Decisão – GPS recusado** | Selecionar cidade manualmente pode ser cansativo | Sugerir salvar cidade favorita |
+
+---
+
+## 📝 Resumo  
+O fluxo mostra o caminho ideal de **Ana**, mas também inclui o **caminho alternativo** (quando o GPS é recusado).  
+A análise já revela pontos críticos e oportunidades que podem ser aplicadas nas próximas etapas, como o **wireframe** do aplicativo.
+
